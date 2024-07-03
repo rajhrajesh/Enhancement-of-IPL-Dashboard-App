@@ -1,4 +1,8 @@
 .pie-chart-bg-container {
   background-color: #0f172a;
   border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  margin: 0 auto;
 }

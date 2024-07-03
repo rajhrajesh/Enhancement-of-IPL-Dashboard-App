@@ -1,4 +1,4 @@
-/* Write your CSS here */
+/* Existing CSS */
 .team-matches-container {
   display: flex;
   justify-content: center;
@@ -66,4 +66,27 @@
   .recent-matches-list {
     margin-top: 32px;
   }
+}
+
+/* New CSS for Back Button */
+.btn-outline-info {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.btn-outline-info:hover {
+  color: #1e293b;
+  background-color: #ffffff;
+  transform: scale(1.05);
+}
+
+.btn-outline-info:active {
+  background-color: #d1d5db;
+  border-color: #d1d5db;
+  color: #1e293b;
 }
